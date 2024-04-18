@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eQA-HD-x0U">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Soy-->
+        <scene sceneID="xfX-fe-IXV">
+            <objects>
+                <viewController id="V70-Jb-BIO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vns-QN-aF6">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Biografia" translatesAutoresizingMaskIntoConstraints="NO" id="l2x-H4-XJb">
+                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Soy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qfD-AI-dEx">
+                                <rect key="frame" x="139" y="115" width="49" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HdT-PR-WYA"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="HdT-PR-WYA" firstAttribute="bottom" secondItem="l2x-H4-XJb" secondAttribute="bottom" id="1Qt-Wd-SWD"/>
+                            <constraint firstItem="HdT-PR-WYA" firstAttribute="bottom" secondItem="l2x-H4-XJb" secondAttribute="bottom" id="ECd-e7-2gi"/>
+                            <constraint firstItem="l2x-H4-XJb" firstAttribute="top" secondItem="HdT-PR-WYA" secondAttribute="top" id="Eu0-st-h57"/>
+                            <constraint firstItem="HdT-PR-WYA" firstAttribute="bottom" secondItem="l2x-H4-XJb" secondAttribute="bottom" id="IHC-Qq-kGc"/>
+                            <constraint firstItem="HdT-PR-WYA" firstAttribute="trailing" secondItem="l2x-H4-XJb" secondAttribute="trailing" id="SH7-Bv-dqA"/>
+                            <constraint firstItem="HdT-PR-WYA" firstAttribute="bottom" secondItem="l2x-H4-XJb" secondAttribute="bottom" id="bnM-dB-2UT"/>
+                            <constraint firstItem="l2x-H4-XJb" firstAttribute="leading" secondItem="HdT-PR-WYA" secondAttribute="leading" id="etc-ou-etx"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Soy" image="person" catalog="system" id="YGA-pL-Gff"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e5m-Vi-OY4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3717" y="-1535"/>
+        </scene>
+        <!--Disfruto-->
+        <scene sceneID="Whg-0Y-dYV">
+            <objects>
+                <viewController id="4Zd-9g-vhh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IrU-2l-Ucm">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="familia" translatesAutoresizingMaskIntoConstraints="NO" id="adO-nN-tbJ">
+                                <rect key="frame" x="0.0" y="46" width="393" height="759"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Familia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s8u-4n-XLq">
+                                <rect key="frame" x="151" y="106" width="91" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xd9-oZ-SPN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Disfruto" image="person.2" catalog="system" id="2FW-2h-sjl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lG5-Dj-9Db" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3717" y="-747"/>
+        </scene>
+        <!--Me encanta-->
+        <scene sceneID="Trw-pu-fa3">
+            <objects>
+                <viewController id="UnF-sV-yCu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Twm-eL-sij">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Lovegames" translatesAutoresizingMaskIntoConstraints="NO" id="moI-6Q-9Kg">
+                                <rect key="frame" x="0.0" y="46" width="393" height="759"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Me encanta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ztF-Y2-qUZ">
+                                <rect key="frame" x="113" y="103" width="152" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oxI-DK-uCs"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Me encanta" image="scribble.variable" catalog="system" id="F90-Ja-yUG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aAt-aK-CMK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3717" y="-50"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Evt-2A-1dD">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="eQA-HD-x0U" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UBL-Kj-eNS">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="V70-Jb-BIO" kind="relationship" relationship="viewControllers" id="m5Y-Lr-pF5"/>
+                        <segue destination="4Zd-9g-vhh" kind="relationship" relationship="viewControllers" id="i1a-CX-Pqs"/>
+                        <segue destination="UnF-sV-yCu" kind="relationship" relationship="viewControllers" id="lVL-gr-nCc"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OAW-wV-gpB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2788.5496183206105" y="-747.18309859154931"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Biografia" width="225" height="225"/>
+        <image name="Lovegames" width="768" height="479"/>
+        <image name="familia" width="480" height="320"/>
+        <image name="person" catalog="system" width="128" height="121"/>
+        <image name="person.2" catalog="system" width="128" height="82"/>
+        <image name="scribble.variable" catalog="system" width="128" height="119"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
